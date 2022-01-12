@@ -2,6 +2,17 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pycodestyleEnabled": false,
+
+
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=PyQt5",
+        "--errors-only"
+    ],
+   
     "python.linting.pydocstyleEnabled": false,
     "files.autoSave": "afterDelay"
+
+
+
+   
 }

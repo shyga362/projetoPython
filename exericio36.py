@@ -1,11 +1,11 @@
-casa = float(input("Digite o valor da casa: "))
-salario = float(input("Digite seu salario: "))
+casa = float(input("Digite o valor da casa: R$ "))
+salario = float(input("Digite seu salario: R$"))
 anos = float(input("Digite o tempo em anos que pretende pagar: "))
+prestacao = casa / (anos * 12)
+minimo = salario * 30 / 100
 
-if anos > salario:
-    print("")
-elif:
-    print("")
+if prestacao  >= minimo:
+    print("Emprestimo consedido")
 else:
     print("")
 

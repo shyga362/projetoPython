@@ -1,5 +1,7 @@
-idade = int(input("Digite sua idade: "))
+idade = int(input("Digite o ano em que você nasceu: "))
 tempo = idade - 18 
+
+
 if idade > 18:
     print("Já passou {} anos de você se alistar!".format(tempo))
 elif idade < 18:

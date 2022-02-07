@@ -1,4 +1,8 @@
-idade = int(input("Digite sua idade: "))
+import datetime
+atual = datetime.date.today().year
+ano = int("Digite o seu ano de nascimento: ")
+idade = atual - ano
+print("O atleta tem {} anos".format(idade))
 
 if idade <= 9:
     print("mirim")

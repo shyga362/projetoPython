@@ -1,5 +1,5 @@
 from random import randint
-itemn = ('papel', 'pedra', 'tesolra')
+itens = ('papel', 'pedra', 'tesolra')
 computador = randint(0, 2)
 #print("O computador escolheu {}".format(itens[computador]))
 print("""Suas opções

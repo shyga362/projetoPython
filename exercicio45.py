@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 itens = ('papel', 'pedra', 'tesolra')
 computador = randint(0, 2)
 #print("O computador escolheu {}".format(itens[computador]))
@@ -10,6 +11,14 @@ print("""Suas opções
 jogador = int(input("Qual sua jogada? "))
 print("Computador jogou {}".format(itens[computador]))
 print("Jogador jogou {}".format(itens[jogador]))
+
+sleep(1)
+print("JO")
+sleep(1)
+print("KEN")
+sleep(1)
+print("P1")
+sleep(1)
 
 if computador == 0:
     if jogador == 0:
